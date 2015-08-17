@@ -16,9 +16,8 @@ class Main extends PluginBase implements Listener{
   public function onEntityUseBow(EntityShootBowEvent $event){
     $entity = $event->getEntity();
     if($entity instanceof Player){
-      $name = $entity->getName();
       if($entity->hasPermission("flamebows.use")){
-        $event->getProjectile()->setOnFire(100000000);
+        $event->getProjectile()->setOnFire(500000000 * 20);
       }
     }
   }
