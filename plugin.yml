@@ -1,0 +1,14 @@
+name: FlameBows
+main: MCPEPIG\FlameBows\Main
+version: 1.0.0
+api: [1.0.0]
+load: POSTWORLD
+author: MCPEPIG
+permissions:
+  flamebows:
+    default: op
+    description: "Everything :P"
+    children:
+      flamebows.use:
+        default: op
+        description: "Lets you use flamebows"
