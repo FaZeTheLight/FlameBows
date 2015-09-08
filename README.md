@@ -1,5 +1,5 @@
 # FlameBows
-Simple plugin that adds flaming bows to your server :) Coming soon!
+Adds flaming bows to your server.
 
 #Coming Soon
 
